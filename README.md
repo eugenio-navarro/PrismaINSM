@@ -25,17 +25,13 @@
 
 Nació como proyecto de una materia y terminó publicado en la web oficial del colegio, **[insm.com.ar](https://insm.com.ar)**, que también se desarrolló como parte del proyecto.
 
-Se puede usar de dos formas:
+Se puede usar de estas formas:
 
 | Plataforma | Cómo se usa | Controles |
 |---|---|---|
 | 🖥️ **Web (WebGL)** | Desde el navegador, en [insm.com.ar](https://insm.com.ar) → bajando hasta la sección **"Recorrido Virtual"** | Teclado y mouse (o joystick) |
 | 📱 **Android + visor Cardboard** | Instalando la app en el celular y poniéndolo en un visor VR | Movimiento de cabeza + joystick bluetooth |
-
-> 👉 **Si solo querés recorrer el colegio, no necesitás nada de este repositorio:** entrá a **[insm.com.ar](https://insm.com.ar)** y bajá (scrolleá) hasta la sección **"Recorrido Virtual"**.
-> Este repositorio es para quienes quieran **seguir desarrollando** el proyecto.
-
-<sub>Alternativa de prueba: también hay una versión de testeo en [itch.io](https://eugenio-navarro.itch.io/prismaweb). La versión oficial es la de insm.com.ar.</sub>
+| 🧪 **Web de prueba (itch.io)** | Versión de testeo en [eugenio-navarro.itch.io/prismaweb](https://eugenio-navarro.itch.io/prismaweb) | Teclado y mouse (o joystick) |
 
 ### 📦 Descargas
 
