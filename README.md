@@ -119,7 +119,7 @@ PrismaINSM/
 │   │   │       ├── Models/         ← Modelo 3D (.fbx) del lugar
 │   │   │       ├── Photos/         ← Fotos reales usadas como texturas
 │   │   │       └── Scene/          ← La escena (.unity) de ese lugar
-│   │   ├── ExtraModels/            ← Objetos 3D descargados (matafuegos, ventilador, timbre…)
+│   │   ├── ExtraModels/            ← Objetos 3D descargados (matafuegos, ventilador, proyector…)
 │   │   ├── ExtraAssets/            ← Más objetos 3D (sillas, monitores, teclados…) ⚠️ se usan en las aulas
 │   │   ├── Prefabs/                ← Objetos reutilizables: jugadores y cartel de interacción
 │   │   ├── Scripts/                ← El código C# del proyecto
@@ -180,7 +180,6 @@ Carpetas que **no** están en el repo (Unity las crea solo): `Library/`, `Temp/`
 | `PlayerControllerPC.cs` | `PCPlayerController` | Caminar, correr, saltar y mirar con el mouse (PC/Web). |
 | `PlayerControllerVR.cs` | `VRPlayerController` | Caminar, correr y saltar en VR (la cabeza la maneja Cardboard). |
 | `DoorInteractor.cs` | `DoorInteractor` | Puertas: al acercarte aparece un círculo; **mantené** el botón hasta llenarlo y te lleva a otra escena. |
-| `BellInteractor.cs` | `AudioInteractor` | Igual que la puerta, pero en vez de cambiar de escena **reproduce un sonido** (ej. el timbre). |
 | `MenuManager.cs` | `MenuManager` | Abre/cierra el menú para saltar directo a cualquier sala. |
 | `AutoScroll.cs` | `AutoScroll` | Hace que la lista del menú se desplace sola cuando se navega con joystick. |
 | `SceneLoader.cs` | `SceneLoader` | Función que usan los botones del menú para cargar una escena por nombre. |
@@ -191,7 +190,7 @@ Carpetas que **no** están en el repo (Unity las crea solo): `Library/`, `Temp/`
 
 - **PlayerPC** → jugador para compu/web.
 - **PlayerVR** → jugador para Cardboard.
-- **PickupPromptCanvas** → el cartel con el círculo de progreso que aparece al acercarse a una puerta o al timbre.
+- **PickupPromptCanvas** → el cartel con el círculo de progreso que aparece al acercarse a una puerta.
 - Los que dicen **Obsoleto** son versiones viejas; no se usan.
 
 > 💡 Si modificás un **prefab** (doble clic en él), el cambio se aplica en **todas** las escenas donde aparece. Si lo modificás adentro de una escena, solo cambia ahí (salvo que uses *Overrides → Apply All*).
@@ -235,10 +234,6 @@ Definidos en `Assets/SchoolResources/PlayerControls.inputactions` (doble clic pa
    - **Interact Action** → la acción `Gameplay/Interact` de `PlayerControls`.
    - **Interaction Canvas** y **Progress Fill Image** → arrastrá una instancia del prefab `PickupPromptCanvas` y su imagen `ProgressFill`.
 4. Asegurate de que el jugador tenga el **Tag `Player`**: la puerta solo reacciona a objetos con ese tag.
-
-### 🔔 Agregar un objeto que suena (como el timbre)
-
-Igual que la puerta, pero con el componente **AudioInteractor** (archivo `BellInteractor.cs`) y un **Audio Clip** asignado (ej. `Models/SalaAulas/Timbre.mp3`). A diferencia de la puerta, acá hay que arrastrar el jugador al campo **Player Object**. Tildá **Play Once** si solo tiene que sonar una vez.
 
 ### 🪑 Agregar un objeto 3D decorativo
 
