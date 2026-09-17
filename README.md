@@ -29,11 +29,23 @@ Se puede usar de dos formas:
 
 | Plataforma | Cómo se usa | Controles |
 |---|---|---|
-| 🖥️ **Web (WebGL)** | Desde el navegador, en [insm.com.ar](https://insm.com.ar) | Teclado y mouse (o joystick) |
+| 🖥️ **Web (WebGL)** | Desde el navegador, en [insm.com.ar](https://insm.com.ar) → bajando hasta la sección **"Recorrido Virtual"** | Teclado y mouse (o joystick) |
 | 📱 **Android + visor Cardboard** | Instalando la app en el celular y poniéndolo en un visor VR | Movimiento de cabeza + joystick bluetooth |
 
-> 👉 **Si solo querés recorrer el colegio, no necesitás nada de este repositorio: entrá a [insm.com.ar](https://insm.com.ar).**
+> 👉 **Si solo querés recorrer el colegio, no necesitás nada de este repositorio:** entrá a **[insm.com.ar](https://insm.com.ar)** y bajá (scrolleá) hasta la sección **"Recorrido Virtual"**.
 > Este repositorio es para quienes quieran **seguir desarrollando** el proyecto.
+
+<sub>Alternativa de prueba: también hay una versión de testeo en [itch.io](https://eugenio-navarro.itch.io/prismaweb). La versión oficial es la de insm.com.ar.</sub>
+
+### 📦 Descargas
+
+Las versiones listas para usar están en la sección **[Releases](../../releases)** de este repositorio (a la derecha de la página principal, o en *Releases → Latest*). En cada versión, dentro de **Assets**, vas a encontrar:
+
+| Archivo | Qué es | Cómo se usa |
+|---|---|---|
+| `PrismaINSM-Android-vX.X.apk` | La app para celulares Android (10 o superior) | Descargalo en el celular, abrilo y aceptá *instalar apps de origen desconocido*. Después poné el celular en un visor Cardboard. |
+| `PrismaINSM-Web-vX.X.zip` | La versión web (`index.html` + carpeta `Build/`) | Es lo que se sube al hosting de insm.com.ar. **No funciona con doble clic** en `index.html`: necesita un servidor web (ver [sección 7](#7-generar-las-builds-web-y-android)). Para simplemente probarla, usá la web. |
+| `Source code (zip / tar.gz)` | Copia del código de esa versión (la agrega GitHub sola) | Solo sirve para ver cómo estaba el proyecto en ese momento. Para trabajar, cloná el repositorio ([sección 2](#2-descargar-y-abrir-el-proyecto)). |
 
 ### Lugares que se pueden recorrer
 
