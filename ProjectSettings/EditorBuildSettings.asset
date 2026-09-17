@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SchoolResources/Models/SalaAulas/Scene/SalaAulas.unity
+    guid: c0c4b4961efc1d344998ff6dee47b22e
+  - enabled: 1
+    path: Assets/SchoolResources/Models/1roA-6toA/Scene/1roA-6toA.unity
+    guid: a82424aa9ffb48f45ba3afce8ee02c94
+  - enabled: 1
+    path: Assets/SchoolResources/Models/1roB/Scene/1roB.unity
+    guid: c3530139a8623204c9cb05dc11c145a6
+  - enabled: 1
+    path: Assets/SchoolResources/Models/2doA-5toA/Scene/2doA-5toA.unity
+    guid: 844cb98ecc7c2004b9a691c6253aadc6
+  - enabled: 1
+    path: Assets/SchoolResources/Models/2doB-5toB/Scene/2doB-5toB.unity
+    guid: 69793a90ee8831949865dd5414144157
+  - enabled: 1
+    path: Assets/SchoolResources/Models/3roA-4toB/Scene/3roA-4toB.unity
+    guid: b6e8ba0057b632746ba18f0f790f093b
+  - enabled: 1
+    path: Assets/SchoolResources/Models/3roB-6toB/Scene/3roB-6toB.unity
+    guid: a35f6f645a2022d4dbe23ece125a5199
+  - enabled: 1
+    path: Assets/SchoolResources/Models/4toA/Scene/4toA.unity
+    guid: 505ef58c29e90d540b610d4b5a5f10f7
+  - enabled: 1
+    path: Assets/SchoolResources/Models/AnteSala2/Scene/AnteSala2.unity
+    guid: 239449cd9caf88f46930fe0eb0441bf2
+  - enabled: 1
+    path: Assets/SchoolResources/Models/Biblioteca/Scene/Biblioteca.unity
+    guid: 501fbcde0136074479957c4d861082e1
+  - enabled: 1
+    path: Assets/SchoolResources/Models/Capilla/Scene/Capilla.unity
+    guid: a400341063017f54c8e056ae8c97d9d6
+  - enabled: 1
+    path: Assets/SchoolResources/Models/Comedor/Scene/Comedor.unity
+    guid: 413f73f6f2b38d34e974dd4c3e74014a
+  - enabled: 1
+    path: "Assets/SchoolResources/Models/Direcci\xF3n/Scene/Direcci\xF3n.unity"
+    guid: a3c13735346d19441bac3f2414174182
+  - enabled: 1
+    path: Assets/SchoolResources/Models/Fotocopiadora/Scene/Fotocopiadora.unity
+    guid: b09c6fef3195c624681890df64891ebf
+  - enabled: 1
+    path: Assets/SchoolResources/Models/Kiosco/Scene/Kiosco.unity
+    guid: 2195976ab7389d54c9eacdb08921cd86
+  - enabled: 1
+    path: Assets/SchoolResources/Models/PatioPrimario/Scene/PatioPrimario.unity
+    guid: 42741b41ba1f927468ecd5ef3df17fda
+  - enabled: 1
+    path: "Assets/SchoolResources/Models/Play\xF3n/Scene/Play\xF3n.unity"
+    guid: c0663f17533d1844e88db1facf3016ad
+  - enabled: 1
+    path: "Assets/SchoolResources/Models/Porter\xEDa/Scene/Porter\xEDa.unity"
+    guid: 35e8c5a79456a9547a5c6d021eca3bad
+  - enabled: 1
+    path: "Assets/SchoolResources/Models/SalaInform\xE1tica2/Scene/SalaInform\xE1tica2.unity"
+    guid: 11e47a5846c46fc4a90a2b75f5f55283
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 59968e31c9df3de48bced05650136dc0, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f25f0c3ccba14f74aa7ecd206e742d85, type: 2}

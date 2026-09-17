@@ -1,0 +1,39 @@
+# Normaliza los finales de línea de los archivos de texto
+* text=auto
+
+# Archivos de Unity: se tratan como texto pero no se intentan "fusionar" línea a línea
+*.unity   text merge=unityyamlmerge eol=lf
+*.prefab  text merge=unityyamlmerge eol=lf
+*.asset   text merge=unityyamlmerge eol=lf
+*.mat     text merge=unityyamlmerge eol=lf
+*.meta    text eol=lf
+
+# Código
+*.cs      text diff=csharp
+*.inputactions text
+
+# Archivos binarios (imágenes, modelos 3D, audio, comprimidos)
+*.png  binary
+*.PNG  binary
+*.jpg  binary
+*.JPG  binary
+*.jpeg binary
+*.psd  binary
+*.fbx  binary
+*.obj  binary
+*.dae  binary
+*.stl  binary
+*.blend binary
+*.mp3  binary
+*.wav  binary
+*.ogg  binary
+*.ttf  binary
+*.otf  binary
+*.zip  binary
+*.rar  binary
+*.7z   binary
+*.a    binary
+*.aar  binary
+*.so   binary
+*.dll  binary
+*.pdf  binary
