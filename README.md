@@ -9,7 +9,7 @@
 
 <p align="center">
   Conocé el <b>Instituto Nuestra Señora de la Merced</b> (Arroyito, Córdoba) sin salir de tu casa:<br>
-  caminá por sus aulas, patios y salas en 3D, desde la compu o con un visor de realidad virtual.
+  caminá por sus aulas y salas en 3D, desde la compu o con un visor de realidad virtual.
 </p>
 
 <p align="center">
